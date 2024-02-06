@@ -1,0 +1,22 @@
+header {
+    font-family: 'Times New Roman', Times, serif;
+    color:#228b22
+}
+h2 {
+    color:#008b8b;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:1000;
+}
+
+.male {
+    color:#5f9ea0;
+}
+
+.female {
+    color:#ee82ee
+}
+
+section#seasons> ol {
+    color:rgb(225, 103, 103);
+    font-weight:1000;
+}
