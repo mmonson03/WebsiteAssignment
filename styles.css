@@ -1,11 +1,15 @@
 header {
     font-family: 'Times New Roman', Times, serif;
-    color:#228b22
-}
+    color:#228b22;
+    margin: 5px;
+ }
 h2 {
-    color:#008b8b;
+    color:#88dfdf;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:1000;
+    margin: 5px;
+    background-image: linear-gradient(to right, #30C5D2, #12372A);
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .male {
@@ -19,4 +23,16 @@ h2 {
 section#seasons> ol {
     color:rgb(225, 103, 103);
     font-weight:1000;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 2.5px;
+}
+
+p {
+    margin: auto;
+    padding: 5px;
 }
