@@ -1,15 +1,10 @@
-header {
-    font-family: 'Times New Roman', Times, serif;
-    color:#228b22;
-    margin: 5px;
- }
 h2 {
     color:#88dfdf;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:1000;
     margin: 5px;
     background-image: linear-gradient(to right, #30C5D2, #12372A);
-   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .male {
@@ -35,4 +30,97 @@ img {
 p {
     margin: auto;
     padding: 5px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header, footer {
+    font-family: 'Times New Roman', Times, serif;
+    color: #228b22;
+    padding: 10px;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    min-width: 250px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #228b22;
+    text-decoration: none;
+}
+
+nav a:hover {
+}
+/* tablets */
+@media only screen and (max-width:768px) {
+
+    main { 
+        padding: 10px; 
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    header-img {
+        max-width: 100%;
+    }
+}
+
+/* phones */
+@media only screen and (max-width: 480px) {
+    header {
+        text-align: center;
+    }
+
+    nav {
+        display: block;
+        margin: 10px;
+    }
+
+    nav a {
+        display: block;
+    }
 }
