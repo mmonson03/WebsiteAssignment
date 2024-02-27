@@ -1,6 +1,6 @@
 h2 {
     color:#88dfdf;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Playfair Display", serif;
     font-weight:1000;
     margin: 5px;
     background-image: linear-gradient(to right, #30C5D2, #12372A);
@@ -143,3 +143,9 @@ nav a:hover {
 }
 
 /* The Grid Here /\ */
+
+/*/ <uniquifier>: Use a uniquifier for the class name
+/* <weight>: Use a value from 200 to 700 */
+
+/* <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 900 */
