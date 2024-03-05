@@ -1,0 +1,16 @@
+Alignment: consider aligning the header on the homepage (Outer Banks; a Netflix Original. All rights in regards to the information goes to Netflix and the shows writers) with the rest of the text on the page (by using the same margins)
+Consistency/Consrast: there are 2 characters who are different colors in the bulleted list. At first, I thought this was a mistake, but now I'm starting to realize that the two pink ones are probably the female characters and the rest are male characters? It might be fun to make this distinction clearer by using male/female icons instead of bullets in the list. It would make that contrast really clear.
+
+To implement the first suggestion, I tried adjusting the margin so that it looked more aligned. I can't see within the code where
+exactly the textboxes don't line up with the side of the screen, which has been quite frusturating because I do want to fix it and make it
+more in-line. 
+
+To implement the second suggestion, I made sure all of the characters had their correct gender icon by their name to make it
+easier to depict what the colors of their names actually meant. I also added different icons to the season list on the index page
+just to make it have more of an appealing look than just being words.
+
+There was one final suggestion regarding the navigation bars, which I will implement by the time the final is submitted. My
+website wasn't agreeing with me right away to make those edits, so I will be taking more time to adjust those before the final submission.
+
+Some things I am also planning on implementing that I reviewed for myself is making the background of the page look more appealing. Right now,
+I will admit, it looks like a scammy website. I will be taking some time to focus on what aesthetic aspects I can add, and will hopefully be improving on that!
