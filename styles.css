@@ -2,12 +2,15 @@ header h1, h2, header h3 {
     margin: 0;
 }
 
+body {
+    background-color:rgb(255, 241, 168);
+}
 h2 {
-    color:#88dfdf;
+    color:#fedcb2;
     font-family: "Playfair Display", serif;
     font-weight:1000;
     margin: 0;
-    background-image: linear-gradient(to right, #30C5D2, #12372A);
+    background-image: linear-gradient(to right, #f4a123, #f77d12);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -43,7 +46,7 @@ header img {
 
 header, footer {
     font-family: 'Times New Roman', Times, serif;
-    color: #228b22;
+    color: #da8d00;
     padding: 10px;
 }
 
@@ -90,7 +93,7 @@ nav li {
 nav a {
     display: inline-block;
     padding: 10px 20px;
-    color: #228b22;
+    color: #da8d00;
     text-decoration: none;
 }
 
@@ -143,13 +146,5 @@ nav a:hover {
 
 .character-info, .side-characters {
     padding: 20px;
-    border: 5px solid #30C5D2;
+    border: 5px solid #da8d00;
 }
-
-/* The Grid Here /\ */
-
-/*/ <uniquifier>: Use a uniquifier for the class name
-/* <weight>: Use a value from 200 to 700 */
-
-/* <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 400 to 900 */
