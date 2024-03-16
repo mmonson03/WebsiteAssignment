@@ -46,6 +46,7 @@
         margin: auto;
         border: 5px solid black;
         border-radius: 2.5px;
+        max-width: 100%;
     }
 
 
@@ -136,8 +137,6 @@
         background-color: rgba(218, 141, 0, 0.1);
     }
 
-
-<<<<<<< HEAD
     /* MEDIA QUERIES */
     /* tablets */
     @media only screen and (max-width:768px) {
@@ -184,13 +183,14 @@
         gap: 20px;
     }
 
+    /* The Grid Here \/ */
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
     .character-info, .side-characters {
         padding: 20px;
         border: 5px solid #da8d00;
     }
-=======
-.character-info, .side-characters {
-    padding: 20px;
-    border: 5px solid #da8d00;
-}
->>>>>>> 577f572a32c0bbf6bffeba512f16162169490369
