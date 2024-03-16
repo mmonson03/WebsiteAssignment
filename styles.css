@@ -47,8 +47,8 @@
         border: 5px solid black;
         border-radius: 2.5px;
         max-width: 100%;
+        height: auto; 
     }
-
 
         /* all body, paragraph, and quote code here  */
     body {
