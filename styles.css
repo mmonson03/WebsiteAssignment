@@ -137,6 +137,7 @@
     }
 
 
+<<<<<<< HEAD
     /* MEDIA QUERIES */
     /* tablets */
     @media only screen and (max-width:768px) {
@@ -187,3 +188,9 @@
         padding: 20px;
         border: 5px solid #da8d00;
     }
+=======
+.character-info, .side-characters {
+    padding: 20px;
+    border: 5px solid #da8d00;
+}
+>>>>>>> 577f572a32c0bbf6bffeba512f16162169490369
